@@ -49,3 +49,16 @@
 .program:hover .caption {
     opacity: 1;
 }
+
+
+/* Media */
+
+@media (max-width:650px){
+    .program{
+     flex-direction: column;
+    }
+    .program{
+        flex-basis: 100%;
+        margin: 20px;
+    }
+}

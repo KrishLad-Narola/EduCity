@@ -20,7 +20,7 @@ a{
     padding-right: 10%;
 }
 .btn{
-    background: white ;
+    background: #fff ;
     color: #212121;
     padding: 14px 25px;
     font-size:16px ;
@@ -36,3 +36,22 @@ a{
     width: 20px;
     margin-left: 10px;
 }
+.btn.dark-btn{
+    background: #212ea0;
+    color: #fff;
+}
+
+
+
+/*----Media---*/
+
+ @media (max-width:1200px){
+   .container{
+    padding-left: 5%;
+    padding-right: 5%;
+   }
+   .btn{
+    padding: 14px 22px;
+    
+   }
+ }
